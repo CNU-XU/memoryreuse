@@ -288,7 +288,7 @@ int main()
     else {
         printf("Running sample.\n");
     }
-    std::cout << std::endl << "This code tests:memory pool defragmentation" << std::endl << std::endl;
+    std::cout << std::endl << "This code tests: How MemPool threshold work" << std::endl << std::endl;
     cudaStatus = with_threshold();
     if (cudaStatus != cudaSuccess) {
         fprintf(stderr, "free1_3 failed!");
